@@ -23,6 +23,15 @@ WorkSpace: user belong to workspace with difference role, each workspace have di
 - Links
 - Template
 - creating_status: (Draft, Created, Deleted)
+## Status:
+- Title
+- Description
+- Team:ref
+
+## Label:
+- ColorCode
+- Title
+- Team:ref
 
 ## Project:
 - Status
