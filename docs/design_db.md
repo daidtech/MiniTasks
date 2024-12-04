@@ -2,11 +2,10 @@ WorkSpace: user belong to workspace with difference role, each workspace have di
 
 ## SlugHistories
 - Slug:
-- Task: ref
+- Team:ref
 
 ## Tasks:
-- Slug: url
-- TaskId: example(mini+1+slug)
+- Slug: ref:slug_history:have_one
 - Status: Backlog, Active(Todo, Doing, LocalDone, Done, Archive)
 - Assignee: ref User, team members
 - Creator: ref User, team members (admin role, manage role)
