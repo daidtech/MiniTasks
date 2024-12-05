@@ -1,5 +1,26 @@
 WorkSpace: user belong to workspace with difference role, each workspace have difference setting
 
+## Team
+- name:
+- member:ref to user
+- Role: enum value[admin, user]
+
+## Milestone:
+- Milestone: title, descriptin, date
+
+## Project:
+- Status
+- Priority
+- Leader
+- Team: multiple teams
+- Targeted at
+- Started at
+- Created at
+- Updated at
+- Short description
+- Description
+- Milestone: ref list milestones
+
 ## SlugHistories
 - Slug:
 - Team:ref
@@ -42,20 +63,7 @@ WorkSpace: user belong to workspace with difference role, each workspace have di
 - Title
 - Team:ref
 
-## Project:
-- Status
-- Priority
-- Leader
-- Team: multiple teams
-- Targeted at
-- Started at
-- Created at
-- Updated at
-- Short description
-- Description
-- Milestone: ref list milestones
-## Milestone:
-- Milestone: title, descriptin, date
+
 
 ## favorite tasks:
 - task: ref tasks
